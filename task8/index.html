@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var frutasArray = ["banana", "apple", "mango", "watermelon", "grape", "orange"]
+        var specialFruit = "strwberry"
+        function CheckFruit (frutasArray, specialFruit){
+            for (var i=0; i<frutasArray.length; i++){
+                if (specialFruit == frutasArray[i]){
+                    return "Sure, we have it"
+                }    
+            }
+            return "I'm sorry, but we don't have it"
+        }
+        console.log(CheckFruit(frutasArray, specialFruit));
+
+    </script>
+</body>
+</html>
