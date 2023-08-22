@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var kitchen = ["knife", "plate", "cup", "fork", "mug", "bowl"]
+        var num = +prompt("insert a number")
+        var something = prompt("insert an kitchen object")
+        function newSuff (num, kitchen){
+            if (num > kitchen.length){
+                kitchen.push(something)
+            }
+        }
+        newSuff(num, kitchen)
+        console.log(kitchen)
+    </script>
+</body>
+</html>
