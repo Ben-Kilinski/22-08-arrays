@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var names = ["Ben", "Jenny", "David", "Maria", "Hugo", "Moshe"]
+        var countries = ["Brazil", "Israel", "EUA", "Russia", "England", "Japan"]
+        var colors = ["blue", "red", "pink", "brown", "black", "purple"]
+        var cities = ["Tel Aviv", "São Paulo", "New York", "Paris", "London", "Moscow"]
+        var numbers = ["1990", "1997", "2001", "2005", "2012", "2021"]
+
+        console.log(countries[2], names[4], numbers[3], cities[5], names[5])
+
+        countries[0]="Argentina"
+        names[1]="Jennyyy"
+        colors[2]="orange"
+        cities[3]="Roma"
+        numbers[4]="1930"
+        numbers[5]="2009"      
+
+        function MyArrays (){
+            console.log(names, countries, colors, cities, numbers)
+        }
+
+        MyArrays()
+
+        
+        function printWithSpace (anyArray){
+            console.log(anyArray.join(" "))
+        }
+
+        printWithSpace(countries)
+        
+       
+    </script>
+</body>
+</html>
