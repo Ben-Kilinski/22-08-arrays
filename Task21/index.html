@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //task21
+        function changeArrays (firstArray, secondArray) {
+            if(firstArray.length == secondArray.length){
+                var temp = firstArray;
+                firstArray = secondArray;
+                secondArray = temp;
+                return true;
+            }
+            return false;
+        }
+        var array1 = ["ljlbf", "wfj"]
+        var array2 = ["sll", "dçwqlk"]
+        console.log(changeArrays(array1,array2));
+    </script>
+</body>
+</html>
