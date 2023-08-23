@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    //task49
+     <script>
+        var num;
+        var numsArray = [];
+        var i = 0;
+        do {
+            num = +prompt("insert a number");
+        }
+        while   (num % 2 == 0 && i <10){
+            numsArray.push(num)
+            i++
+        }
+        console.log(numsArray); 
+
+        // function createArray() {
+        //     var numsArray = []
+        //     for (var i = 0; i <10; i++) {
+        //         var num = +prompt("enter a number")
+        //         if (num % 2 == 0) {
+        //             numsArray.push(num);
+        //             i--;
+        //         }
+        //     console.log(numsArray);
+        //     }
+        // }
+        // createArray();
+    </script>
+</body>
+</html>

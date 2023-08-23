@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        
+    function criarArrayDeSequencias(numero) {
+        var arrayDeSequencias = [];
+
+        for (var i = 1; i <= numero; i++) {
+        var sequencia = [];
+            for (var j = 1; j <= i; j++) {
+            sequencia.push(j);
+            }
+        arrayDeSequencias.push(sequencia);
+        }
+        return arrayDeSequencias;
+    }
+
+// Solicitando um número ao usuário
+    var numeroUsuario = +prompt("Por favor, insira um número:");
+
+// Chamando a função para criar o array de sequências
+    var arrayDeSequenciasGerado = criarArrayDeSequencias(numeroUsuario);
+
+// Exibindo o array gerado no console
+    console.log("O array de sequências gerado é:");
+    console.log(arrayDeSequenciasGerado);
+
+
+       
+    </script>
+</body>
+</html>
